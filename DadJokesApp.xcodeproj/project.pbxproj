@@ -11,6 +11,7 @@
 		3DEFCDF825E01B44004FEC0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFCDF725E01B44004FEC0F /* ContentView.swift */; };
 		3DEFCDFA25E01B49004FEC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEFCDF925E01B49004FEC0F /* Assets.xcassets */; };
 		3DEFCDFD25E01B49004FEC0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEFCDFC25E01B49004FEC0F /* Preview Assets.xcassets */; };
+		3DEFCE0625E01C00004FEC0F /* DadJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFCE0525E01C00004FEC0F /* DadJoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3DEFCDF925E01B49004FEC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DEFCDFC25E01B49004FEC0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DEFCDFE25E01B49004FEC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEFCE0525E01C00004FEC0F /* DadJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		3DEFCDE925E01B44004FEC0F = {
 			isa = PBXGroup;
 			children = (
+				3DEFCE0525E01C00004FEC0F /* DadJoke.swift */,
 				3DEFCDF425E01B44004FEC0F /* DadJokesApp */,
 				3DEFCDF325E01B44004FEC0F /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				3DEFCDF825E01B44004FEC0F /* ContentView.swift in Sources */,
 				3DEFCDF625E01B44004FEC0F /* DadJokesAppApp.swift in Sources */,
+				3DEFCE0625E01C00004FEC0F /* DadJoke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
