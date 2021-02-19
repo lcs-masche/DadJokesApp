@@ -12,11 +12,17 @@ struct ContentView: View {
     @State var someText = "Hello World"
     
     var body: some View {
-        Text(someText)
-            .padding()
-            .onAppear() {
+        VStack {
+            Text(someText)
+                .padding()
+                .onAppear() {
+                    fetchJoke()
+                }
+            Button ("Get another joke") {
                 fetchJoke()
             }
+        }
+
     }
     func fetchJoke() {
         
